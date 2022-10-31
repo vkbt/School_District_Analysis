@@ -45,7 +45,8 @@ insert pic 5
 
 ## Challenge Summary
 
-Using our **Python**,  **Pandas** and **Jupyter Notebook** skills we were able to collect, clean up and prepare school district data for our analysis. We began our analysis by summarizing the data, continued by drilling down into the data and completed by aggregating the data.
+Using our **Python**,  **Pandas** and **Jupyter Notebook** skills we were able to collect, clean up and prepare school district data for our analysis. We began our analysis by summarizing the data, continued by drilling down into the data and completed by aggregating the data.We believe the analysis of average score is beneficial for every school. We found out that Matthew Thomas from Dixon High School had the lowest reading score from the entire dataset, however Matthew’s math score was relatively close to the mean math score across all schools. The budget for charter and private schools was relatively close - 872,625 vs 911,195. Montgomery High School had highest number of students (2038) and Chang High School had lowest number of students (171). Additionally, we thought it would be beneficial to group mean reading and math scores by school type and grade.  The result showed us that the average reading score for charter and public schools was relatively close (72.0) and average math score for charter schools was higher than for public schools (67.0 and 63.0). 
+
 
 Note:
 
