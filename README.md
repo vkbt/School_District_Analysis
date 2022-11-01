@@ -27,21 +27,21 @@ It is essential to clean the data before we analyze it. We used built-in Pandas 
 - [**pandas.DataFrame.duplicated**](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.duplicated.html) function to identify duplicate values and [**pandas.DataFrame.drop_duplicates**](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.drop_duplicates.html) function to remove them
 - we found non-numerical characters where we expected to see only numbers (i.e. 9**th** instead of 9) and converted them into numbers usings [**pandas.DataFrame.replace**](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.replace.html) and [**pandas.DataFrame.astype**](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.astype.html) functions
 
-insert a pic 2
+<img src="https://github.com/vkbt/School_District_Analysis/blob/main/Resources/2_pandas_clean_data.png" width=100% height=100%>
 
 ### 3. Analyze the data
 
 Finally we were able to move on to the last step of our process - analyze the data. We started with high level analysis and produced summary statistics, mean math score and lowest reading score for the entire data set using [**pandas.DataFrame.describe**](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.describe.html), [**pandas.DataFrame.mean**](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.mean.html) and [**pandas.DataFrame.min**](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.min.html) functions.
 
-insert a pic 3
+<img src="https://github.com/vkbt/School_District_Analysis/blob/main/Resources/3_pandas_high_level_data_analysis.png" width=100% height=100%>
 
 Next we moved on to targeted analysis. We analyzed 9th grade only data using [**pandas.DataFrame.loc**](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.loc.html) and [**pandas.DataFrame.describe**](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.describe.html) functions, reviewed Dixon High School's reading score for grade 10 using [**pandas.DataFrame.loc**](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.loc.html) and conditional statements and produced mean reading score for all students in grades 11 and 12 using [**pandas.DataFrame.loc**](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.loc.html), conditional statements and [**pandas.DataFrame.mean**](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.mean.html) functions.
 
-insert pic 4
+<img src="https://github.com/vkbt/School_District_Analysis/blob/main/Resources/4_pandas_targeted_data_analysis.png" width=100% height=100%>
 
 Lastly, we used [**pandas.DataFrame.groupby**](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.groupby.html), [**pandas.DataFrame.count**](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.count.html), and [**pandas.DataFrame.sort_values**](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.sort_values.html) functions to find the total number of students at each school and sort the output in the descending order.
 
-insert pic 5
+<img src="https://github.com/vkbt/School_District_Analysis/blob/main/Resources/5_pandas_grouping_data.png" width=100% height=100%>
 
 ## Challenge Summary
 
