@@ -5,7 +5,7 @@
 We have been asked to assist Maria, the chief data scientist for a city school district, to analyze student data from multiple schools and in a variety of formats. The result of our analysis will be used to inform discussions and strategic decisions at the school and district levels.
 
 ## Resources
- - Data Source:
+ - Data Source: [**new_full_student_data.csv**](https://github.com/vkbt/School_District_Analysis/blob/main/Resources/new_full_student_data.csv)
  - Software: Anaconda **2022.05**, Python **3.7.13**, Conda **22.9.0**, Jupyter Notebook **6.4.12**, Pandas **1.3.5**
  
 ## Summary
@@ -14,7 +14,7 @@ We used three phase process (collect, prepare and analyze) to analyze this data.
  
 ### 1. Collect the data
 
-Maria provided us with a raw csv file ["new_full_student_data.csv"](add link).
+Maria provided us with a raw csv file [new_full_student_data.csv](https://github.com/vkbt/School_District_Analysis/blob/main/Resources/new_full_student_data.csv).
 
 Using **Conda** package management system we created a new virtual environment that runs the latest version of **Python 3.7** and contains all the **Anaconda** packages including **Jupyter Notebook** and named it PythonData. We imported the data into **Jupyter Notebook** using [**os**](https://docs.python.org/3/library/os.html) module and read the data using [**pandas.read_csv**](https://pandas.pydata.org/docs/reference/api/pandas.read_csv.html) function. **Jupyter Notebook** is a powerful interactive computional environment that supports **Python** and is largely used for data analysis and visualization. We used **Pandas**, a fast and powerful software library built on top of **Python**, to clean, manipulate and analyze student data provided by Maria.
 
