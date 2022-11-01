@@ -18,7 +18,7 @@ Maria provided us with a raw csv file [new_full_student_data.csv](https://github
 
 Using **Conda** package management system we created a new virtual environment that runs the latest version of **Python 3.7** and contains all the **Anaconda** packages including **Jupyter Notebook** and named it PythonData. We imported the data into **Jupyter Notebook** using [**os**](https://docs.python.org/3/library/os.html) module and read the data using [**pandas.read_csv**](https://pandas.pydata.org/docs/reference/api/pandas.read_csv.html) function. **Jupyter Notebook** is a powerful interactive computional environment that supports **Python** and is largely used for data analysis and visualization. We used **Pandas**, a fast and powerful software library built on top of **Python**, to clean, manipulate and analyze student data provided by Maria.
 
-insert a pic 1
+<img src="https://github.com/vkbt/School_District_Analysis/blob/main/Resources/1_pandas_import_and_read_data_from_csv.png" width=100% height=100%>
 
 ### 2. Prepare the data
 
